@@ -1,0 +1,10 @@
+
+def isPowerOfTwo(x):
+  return (x and not(x & (x - 1)))
+
+
+n=input('Enter Number')
+if(isPowerOfTwo(n)):
+  print("Given number is a power of 2")
+else:
+ print("Given number is not a power of 2")   
